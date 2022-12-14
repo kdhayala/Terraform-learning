@@ -48,12 +48,14 @@ variable "sample4" {
 
 
 #### access the list value
-output "sample4" {
-  value = var.sample4
-}
 
 ####### pickup variable from terrafrom.tfvars file
 variable "sample6" {}
 output "sample6" {
   value = var.sample6
+}
+ ## Declaring variable from CLI
+variable "sample7" {}
+output "sample7" {
+  value = var.sample7
 }
