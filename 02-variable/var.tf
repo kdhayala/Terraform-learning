@@ -54,6 +54,6 @@ output "sample4" {
 
 ####### pickup variable from terrafrom.tfvars file
 variable "sample6" {}
-output "smaple6" {
+output "sample6" {
   value = var.sample6
 }
