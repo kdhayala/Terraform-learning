@@ -51,3 +51,8 @@ variable "sample4" {
 output "sample4" {
   value = var.sample4[2]
 }
+
+####### pickup variable from terrafrom.tfvars file
+variable "sample6" {
+  default = var.sample6
+}
