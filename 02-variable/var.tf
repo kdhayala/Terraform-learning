@@ -49,11 +49,11 @@ variable "sample4" {
 
 #### access the list value
 output "sample4" {
-  value = var.sample4[2]
+  value = var.sample4
 }
 
 ####### pickup variable from terrafrom.tfvars file
 variable "sample6" {}
 output "sample6" {
-  value = var.sample5
+  value = var.sample6
 }
