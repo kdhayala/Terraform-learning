@@ -1,1 +1,1 @@
-sample = "foo"
+sample6 = "foo"
