@@ -1,5 +1,7 @@
 provider "aws" {
-  region = "us-east-1"
+  profile = "odl_user_819918"
+  region  = "us-west-1"
+}
 }
 
 resource "aws_instance" "sample" {
